@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MB Motos | Compra, venda e troca de motos em Parnamirim-RN</title>
+  <meta name="description" content="MB Motos: motos seminovas revisadas em Parnamirim-RN. Compra, venda e troca. PIX, cartão em até 21x, dinheiro e financiamento bancário.">
+  <meta name="theme-color" content="#0a0a0b">
+  <meta property="og:title" content="MB Motos | Parnamirim-RN">
+  <meta property="og:description" content="Compra, vende e troca. Cartão em até 21x e financiamento bancário.">
+  <meta property="og:image" content="assets/img/lander-250.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800;900&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="loader" id="loader">
+    <div class="loader-logo">MB<span>MOTOS</span></div>
+    <div class="loader-bar"><i></i></div>
+  </div>
+
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="#inicio" class="brand" aria-label="MB Motos - início">
+        <span class="brand-mb">MB</span>
+        <span class="brand-motos">MOTOS</span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#estoque">Estoque</a>
+        <a href="#servicos">Compra e troca</a>
+        <a href="#pagamento">Pagamento</a>
+        <a href="#loja">A loja</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <div class="nav-right">
+        <span class="status" id="statusNav"><i></i><b>Verificando</b></span>
+        <a href="https://wa.me/5584994123216" target="_blank" rel="noopener" class="btn btn-red btn-sm">Falar no WhatsApp</a>
+        <button class="burger" id="burger" aria-label="Abrir menu"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-bg">
+        <div class="hero-grid"></div>
+        <div class="hero-glow"></div>
+      </div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow reveal"><span class="dot"></span>Parnamirim &middot; Rio Grande do Norte</p>
+          <h1 class="hero-title reveal">
+            <span class="line">Sua próxima</span>
+            <span class="line">moto está</span>
+            <span class="line red">na MB.</span>
+          </h1>
+          <p class="hero-sub reveal">Seminovas selecionadas, procedência conferida e negociação direta com quem entende de moto. Compra, venda e troca no mesmo lugar.</p>
+          <div class="hero-cta reveal">
+            <a href="#estoque" class="btn btn-red">Ver motos disponíveis</a>
+            <a href="#avaliacao" class="btn btn-ghost">Avaliar minha moto</a>
+          </div>
+          <ul class="hero-stats reveal">
+            <li><strong data-count="10.8" data-decimals="1" data-suffix=" mil">0</strong><span>seguidores no Instagram</span></li>
+            <li><strong data-count="21" data-suffix="x">0</strong><span>no cartão de crédito</span></li>
+            <li><strong data-count="3">0</strong><span>formas de negócio: compra, venda e troca</span></li>
+          </ul>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="hero-frame">
+            <img src="assets/img/lander-250.jpg" alt="Yamaha Lander 250 vermelha exposta na parede com o logo da MB Motos">
+            <div class="hero-tag">
+              <small>Em destaque</small>
+              <strong>Yamaha Lander 250</strong>
+              <span>2023 &middot; 41.934 km</span>
+            </div>
+          </div>
+          <div class="hero-badge">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.9 6.26L22 9.27l-5.2 4.73L18.18 21 12 17.27 5.82 21 7.2 14 2 9.27l7.1-1.01L12 2z"/></svg>
+            <div><b>Perfil verificado</b><span>@mb_motoss</span></div>
+          </div>
+        </div>
+      </div>
+      <a href="#estoque" class="scroll-hint" aria-label="Rolar para o estoque"><span></span></a>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>HONDA</span><i></i><span>YAMAHA</span><i></i><span>COMPRA</span><i></i><span>VENDE</span><i></i><span>TROCA</span><i></i><span>CARTÃO EM ATÉ 21X</span><i></i><span>FINANCIAMENTO</span><i></i>
+        <span>HONDA</span><i></i><span>YAMAHA</span><i></i><span>COMPRA</span><i></i><span>VENDE</span><i></i><span>TROCA</span><i></i><span>CARTÃO EM ATÉ 21X</span><i></i><span>FINANCIAMENTO</span><i></i>
+      </div>
+    </div>
+
+    <section class="section" id="estoque">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="kicker reveal">01 &mdash; Estoque</p>
+            <h2 class="section-title reveal">Motos disponíveis agora</h2>
+          </div>
+          <p class="section-lead reveal">O estoque gira rápido. Viu uma que gostou? Chame no WhatsApp e reserve antes que alguém leve.</p>
+        </div>
+
+        <div class="toolbar reveal">
+          <div class="filters" id="filters">
+            <button class="chip active" data-filter="todas">Todas</button>
+            <button class="chip" data-filter="Honda">Honda</button>
+            <button class="chip" data-filter="Yamaha">Yamaha</button>
+            <button class="chip" data-filter="trilha">Trail / Trilha</button>
+            <button class="chip" data-filter="street">Street</button>
+          </div>
+          <label class="search">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+            <input type="search" id="search" placeholder="Buscar modelo, marca ou ano">
+          </label>
+        </div>
+
+        <div class="grid-motos" id="gridMotos"></div>
+        <p class="empty" id="empty" hidden>Nenhuma moto encontrada com esse filtro. Fale com a gente: chega moto nova toda semana.</p>
+
+        <div class="stock-cta reveal">
+          <div>
+            <h3>Não achou o modelo que procura?</h3>
+            <p>Diga qual moto você quer e a MB vai atrás para você.</p>
+          </div>
+          <a href="#" class="btn btn-light" data-wa="Olá, MB Motos! Estou procurando uma moto que não vi no site. Modelo que procuro: ">Encomendar minha moto</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="servicos">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="kicker reveal">02 &mdash; Negócio</p>
+            <h2 class="section-title reveal">Compra, vende e troca.</h2>
+          </div>
+          <p class="section-lead reveal">Três jeitos de fazer negócio, um atendimento só. Sem enrolação e com a avaliação justa da sua moto.</p>
+        </div>
+
+        <div class="services">
+          <article class="service reveal">
+            <span class="service-num">01</span>
+            <h3>Comprar</h3>
+            <p>Seminovas revisadas, com documentação conferida e histórico transparente. Você vê a moto de perto antes de fechar.</p>
+            <a href="#estoque" class="link-arrow">Ver estoque</a>
+          </article>
+          <article class="service reveal">
+            <span class="service-num">02</span>
+            <h3>Vender</h3>
+            <p>Quer vender sua moto sem dor de cabeça? A MB avalia e compra, com pagamento rápido e sem anúncio, sem curioso.</p>
+            <a href="#avaliacao" class="link-arrow">Pedir avaliação</a>
+          </article>
+          <article class="service reveal">
+            <span class="service-num">03</span>
+            <h3>Trocar</h3>
+            <p>Sua moto entra como parte do pagamento. Saia de moto nova pagando só a diferença, no PIX, cartão ou financiamento.</p>
+            <a href="#avaliacao" class="link-arrow">Simular troca</a>
+          </article>
+        </div>
+
+        <div class="eval" id="avaliacao">
+          <div class="eval-copy reveal">
+            <p class="kicker">Avaliação gratuita</p>
+            <h3>Quanto vale a sua moto?</h3>
+            <p>Preencha em 30 segundos. A mensagem já chega pronta no WhatsApp da loja e você recebe a proposta direto com o vendedor.</p>
+            <ul class="checks">
+              <li>Avaliação sem compromisso</li>
+              <li>Proposta pela tabela FIPE como referência</li>
+              <li>Troca com pagamento só da diferença</li>
+            </ul>
+          </div>
+          <form class="eval-form reveal" id="evalForm" novalidate>
+            <div class="seg" role="radiogroup" aria-label="O que você quer fazer">
+              <label><input type="radio" name="intencao" value="vender minha moto" checked><span>Vender</span></label>
+              <label><input type="radio" name="intencao" value="trocar minha moto por outra"><span>Trocar</span></label>
+            </div>
+            <div class="field">
+              <input type="text" id="fNome" name="nome" placeholder=" " required>
+              <label for="fNome">Seu nome</label>
+            </div>
+            <div class="field">
+              <input type="text" id="fModelo" name="modelo" placeholder=" " required>
+              <label for="fModelo">Marca e modelo (ex.: Honda CG 160)</label>
+            </div>
+            <div class="row">
+              <div class="field">
+                <input type="number" id="fAno" name="ano" placeholder=" " min="1990" max="2027" required>
+                <label for="fAno">Ano</label>
+              </div>
+              <div class="field">
+                <input type="text" id="fKm" name="km" placeholder=" " inputmode="numeric" required>
+                <label for="fKm">Quilometragem</label>
+              </div>
+            </div>
+            <div class="field">
+              <select id="fEstado" name="estado">
+                <option>Excelente, sem detalhes</option>
+                <option>Bom, pequenos detalhes</option>
+                <option>Precisa de reparos</option>
+              </select>
+              <label for="fEstado" class="fixed">Estado de conservação</label>
+            </div>
+            <p class="form-error" id="formError" hidden>Preencha nome, modelo, ano e quilometragem.</p>
+            <button type="submit" class="btn btn-red btn-block">Enviar para avaliação</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="pagamento">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="kicker reveal">03 &mdash; Pagamento</p>
+            <h2 class="section-title reveal">Do jeito que cabe no seu bolso</h2>
+          </div>
+          <p class="section-lead reveal">Escolha a forma de pagamento que for melhor para você. Dá para combinar troca com qualquer uma delas.</p>
+        </div>
+        <div class="pay">
+          <div class="pay-card reveal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l4 4-4 4-4-4 4-4zM6 8l4 4-4 4-4-4 4-4zm12 0l4 4-4 4-4-4 4-4zm-6 6l4 4-4 4-4-4 4-4z"/></svg>
+            <h3>PIX</h3>
+            <p>Na hora, sem burocracia.</p>
+          </div>
+          <div class="pay-card pay-hl reveal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20M6 15h4"/></svg>
+            <h3>Cartão em até <em>21x</em></h3>
+            <p>Parcele no cartão de crédito.</p>
+          </div>
+          <div class="pay-card reveal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="3"/></svg>
+            <h3>Dinheiro</h3>
+            <p>Pagamento à vista na loja.</p>
+          </div>
+          <div class="pay-card reveal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10l9-6 9 6M5 10v8M19 10v8M9 10v8M15 10v8M3 20h18"/></svg>
+            <h3>Financiamento</h3>
+            <p>Financiamento bancário.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="loja">
+      <div class="container loja">
+        <div class="loja-video reveal">
+          <video id="vitrine" src="assets/video/vitrine.mp4" poster="assets/img/vitrine-poster.jpg" muted loop playsinline preload="metadata"></video>
+          <button class="video-toggle" id="videoToggle" aria-label="Pausar vídeo">
+            <svg class="i-pause" viewBox="0 0 24 24"><path d="M7 5h3v14H7zM14 5h3v14h-3z"/></svg>
+            <svg class="i-play" viewBox="0 0 24 24"><path d="M8 5l11 7-11 7z"/></svg>
+          </button>
+          <span class="video-label">Direto da vitrine</span>
+        </div>
+        <div class="loja-copy">
+          <p class="kicker reveal">04 &mdash; A loja</p>
+          <h2 class="section-title reveal">Moto boa se vê de perto.</h2>
+          <p class="reveal">Na MB Motos você chega, olha, liga, pergunta e só fecha quando tiver certeza. Toda moto é apresentada com quilometragem real e todas as condições explicadas antes do negócio, inclusive quando é moto de repasse.</p>
+          <div class="pillars">
+            <div class="pillar reveal"><b>Procedência</b><span>Documentação conferida antes de entrar no estoque.</span></div>
+            <div class="pillar reveal"><b>Transparência</b><span>Km, estado e condições informados sem letra miúda.</span></div>
+            <div class="pillar reveal"><b>Preço justo</b><span>Valores com a tabela FIPE como referência.</span></div>
+            <div class="pillar reveal"><b>Atendimento direto</b><span>Um único número, falando com quem resolve.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contato">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="kicker reveal">05 &mdash; Visite</p>
+            <h2 class="section-title reveal">Venha tomar um café com a gente</h2>
+          </div>
+        </div>
+        <div class="visit">
+          <div class="visit-info reveal">
+            <div class="info-block">
+              <small>Endereço</small>
+              <p>Av. Cândido Martins dos Santos, 206<br>Rosa dos Ventos, Parnamirim/RN<br>CEP 59141-730</p>
+              <span class="muted">Em frente ao Condomínio SunVille</span>
+            </div>
+            <div class="info-block">
+              <small>Horário de funcionamento</small>
+              <ul class="hours" id="hours">
+                <li data-days="1,2,3,4,5"><span>Segunda a sexta</span><b>07:00 &ndash; 17:00</b></li>
+                <li data-days="6"><span>Sábado</span><b>07:00 &ndash; 13:00</b></li>
+                <li data-days="0"><span>Domingo</span><b>Fechado</b></li>
+              </ul>
+              <span class="status status-lg" id="statusBox"><i></i><b>Verificando</b></span>
+            </div>
+            <div class="info-block">
+              <small>WhatsApp (único número oficial)</small>
+              <a href="https://wa.me/5584994123216" target="_blank" rel="noopener" class="phone">(84) 99412-3216</a>
+            </div>
+            <div class="visit-actions">
+              <a href="https://www.google.com/maps/dir/?api=1&destination=Av.+C%C3%A2ndido+Martins+dos+Santos,+206,+Parnamirim,+RN" target="_blank" rel="noopener" class="btn btn-red">Traçar rota</a>
+              <a href="https://www.instagram.com/mb_motoss/" target="_blank" rel="noopener" class="btn btn-ghost">@mb_motoss</a>
+            </div>
+          </div>
+          <div class="visit-map reveal">
+            <iframe title="Mapa da MB Motos" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Av.+C%C3%A2ndido+Martins+dos+Santos,+206,+Rosa+dos+Ventos,+Parnamirim,+RN,+59141-730&output=embed"></iframe>
+          </div>
+        </div>
+
+        <div class="faq">
+          <h3 class="faq-title reveal">Perguntas frequentes</h3>
+          <details class="reveal">
+            <summary>Posso dar minha moto como entrada?</summary>
+            <p>Pode. A MB avalia sua moto e ela entra como parte do pagamento. Você paga só a diferença no PIX, cartão, dinheiro ou financiamento.</p>
+          </details>
+          <details class="reveal">
+            <summary>Em quantas vezes posso parcelar?</summary>
+            <p>No cartão de crédito em até 21x. Também trabalhamos com financiamento bancário, sujeito à aprovação de crédito.</p>
+          </details>
+          <details class="reveal">
+            <summary>As motos têm garantia?</summary>
+            <p>Depende da moto. Quando uma moto é de repasse (sem garantia), isso é informado claramente no anúncio e no atendimento, antes de qualquer negócio.</p>
+          </details>
+          <details class="reveal">
+            <summary>Os preços estão no site?</summary>
+            <p>Algumas motos têm o valor publicado. Para as demais, chame no WhatsApp: os valores mudam conforme a forma de pagamento e a troca.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#inicio" class="brand">
+          <span class="brand-mb">MB</span>
+          <span class="brand-motos">MOTOS</span>
+        </a>
+        <p>Compra, vende e troca. Parnamirim, Rio Grande do Norte.</p>
+      </div>
+      <div class="footer-cols">
+        <div>
+          <small>Navegação</small>
+          <a href="#estoque">Estoque</a>
+          <a href="#servicos">Compra e troca</a>
+          <a href="#pagamento">Pagamento</a>
+          <a href="#contato">Contato</a>
+        </div>
+        <div>
+          <small>Contato</small>
+          <a href="https://wa.me/5584994123216" target="_blank" rel="noopener">(84) 99412-3216</a>
+          <a href="https://www.instagram.com/mb_motoss/" target="_blank" rel="noopener">Instagram</a>
+          <span>Av. Cândido Martins dos Santos, 206</span>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>&copy; <span id="year"></span> MB Motos. Todos os direitos reservados.</span>
+      <span>Desenvolvido por <a href="https://synexsistemas.com.br" target="_blank" rel="noopener">Synex Sistemas</a></span>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/5584994123216" target="_blank" rel="noopener" class="wa-float" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3C9 3 3.3 8.6 3.3 15.6c0 2.4.7 4.7 1.9 6.7L3 29l6.9-2.1c1.9 1 4 1.6 6.1 1.6 7 0 12.7-5.6 12.7-12.6S23 3 16 3zm0 23.1c-1.9 0-3.8-.5-5.4-1.5l-.4-.2-4.1 1.2 1.2-4-.3-.4c-1.1-1.7-1.7-3.6-1.7-5.6C5.3 9.8 10.1 5.1 16 5.1s10.7 4.7 10.7 10.5S21.9 26.1 16 26.1zm5.9-7.9c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.4.3-.6.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.3 1.4 3.5c.2.2 2.4 3.6 5.8 5 2.9 1.1 3.4.9 4 .8.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg>
+  </a>
+
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="mTitle">
+      <button class="modal-close" data-close aria-label="Fechar">
+        <svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+      <div class="modal-media"><img id="mImg" src="" alt=""></div>
+      <div class="modal-body">
+        <p class="modal-brand" id="mBrand"></p>
+        <h3 id="mTitle"></h3>
+        <div class="specs" id="mSpecs"></div>
+        <p class="modal-note" id="mNote"></p>
+        <div class="modal-price">
+          <small>Valor</small>
+          <strong id="mPrice"></strong>
+          <span id="mFipe"></span>
+        </div>
+        <a href="#" class="btn btn-red btn-block" id="mWa" target="_blank" rel="noopener">Tenho interesse nessa moto</a>
+        <a href="#avaliacao" class="btn btn-ghost btn-block" data-close>Quero dar minha moto na troca</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
